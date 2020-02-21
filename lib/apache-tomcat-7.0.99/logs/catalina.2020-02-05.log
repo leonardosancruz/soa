@@ -1,0 +1,296 @@
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Nombre de la versión del servidor:   Apache Tomcat/7.0.99
+
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server built:          Dec 11 2019 13:15:59 UTC
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Número de versión de servidor:         7.0.99.0
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Name:               Mac OS X
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Versión de Systema Operativo:      10.13.6
+
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Arquitectura:          x86_64
+
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Version:           1.8.0_211-b12
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Vededor JVM:     Oracle Corporation
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_BASE:         /Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_HOME:         /Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.config.file=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/conf/logging.properties
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|MacBook-Pro-de-Leonardo.local
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dignore.endorsed.dirs=
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.base=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.home=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:31:07 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.io.tmpdir=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/temp
+feb 05, 2020 7:31:07 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/leonardosanchez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+feb 05, 2020 7:31:08 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Inicializando el manejador de protocolo ["http-bio-8080"]
+
+feb 05, 2020 7:31:08 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Inicializando el manejador de protocolo ["ajp-bio-8009"]
+
+feb 05, 2020 7:31:08 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 1430 ms
+feb 05, 2020 7:31:08 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio [Catalina]
+feb 05, 2020 7:31:08 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.99
+feb 05, 2020 7:31:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/docs] de la aplicación web
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/docs] has finished in [747] ms
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/manager] de la aplicación web
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/manager] has finished in [198] ms
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/examples] de la aplicación web
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/examples] has finished in [586] ms
+feb 05, 2020 7:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/ROOT] de la aplicación web
+feb 05, 2020 7:31:10 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:31:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/ROOT] has finished in [127] ms
+feb 05, 2020 7:31:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/host-manager] de la aplicación web
+feb 05, 2020 7:31:10 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:31:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/host-manager] has finished in [165] ms
+feb 05, 2020 7:31:10 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 7:31:10 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+feb 05, 2020 7:31:10 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 1952 ms
+feb 05, 2020 7:35:54 PM org.apache.catalina.core.StandardServer await
+INFORMACIÓN: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+feb 05, 2020 7:35:54 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 7:35:54 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["ajp-bio-8009"]
+feb 05, 2020 7:35:54 PM org.apache.catalina.core.StandardService stopInternal
+INFORMACIÓN: Parando servicio [Catalina]
+feb 05, 2020 7:35:54 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 7:35:54 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["ajp-bio-8009"]
+feb 05, 2020 7:35:54 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 7:35:54 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["ajp-bio-8009"]
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Nombre de la versión del servidor:   Apache Tomcat/7.0.99
+
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server built:          Dec 11 2019 13:15:59 UTC
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Número de versión de servidor:         7.0.99.0
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Name:               Mac OS X
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Versión de Systema Operativo:      10.13.6
+
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Arquitectura:          x86_64
+
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Version:           1.8.0_211-b12
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Vededor JVM:     Oracle Corporation
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_BASE:         /Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_HOME:         /Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.config.file=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/conf/logging.properties
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|MacBook-Pro-de-Leonardo.local
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dignore.endorsed.dirs=
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.base=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.home=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99
+feb 05, 2020 7:45:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.io.tmpdir=/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/temp
+feb 05, 2020 7:45:05 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/leonardosanchez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+feb 05, 2020 7:45:06 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Inicializando el manejador de protocolo ["http-bio-8080"]
+
+feb 05, 2020 7:45:06 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Inicializando el manejador de protocolo ["ajp-bio-8009"]
+
+feb 05, 2020 7:45:06 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 1509 ms
+feb 05, 2020 7:45:06 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio [Catalina]
+feb 05, 2020 7:45:06 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.99
+feb 05, 2020 7:45:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/docs] de la aplicación web
+feb 05, 2020 7:45:06 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/docs] has finished in [813] ms
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/manager] de la aplicación web
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/manager] has finished in [223] ms
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/examples] de la aplicación web
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/examples] has finished in [595] ms
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/ROOT] de la aplicación web
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/ROOT] has finished in [136] ms
+feb 05, 2020 7:45:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Desplegando el directorio [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/host-manager] de la aplicación web
+feb 05, 2020 7:45:08 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:45:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/webapps/host-manager] has finished in [145] ms
+feb 05, 2020 7:45:08 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 7:45:08 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+feb 05, 2020 7:45:08 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 2058 ms
+feb 05, 2020 7:45:44 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMACIÓN: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto []
+feb 05, 2020 7:45:44 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/conf/Catalina/localhost/ROOT.xml]
+feb 05, 2020 7:45:44 PM org.apache.catalina.deploy.WebXml setVersion
+ADVERTENCIA: Unknown version string [3.1]. Default version will be used.
+feb 05, 2020 7:45:46 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:45:46 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFORMACIÓN: Root WebApplicationContext: initialization started
+feb 05, 2020 7:45:46 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFORMACIÓN: Refreshing Root WebApplicationContext: startup date [Wed Feb 05 19:45:46 COT 2020]; root of context hierarchy
+feb 05, 2020 7:45:46 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFORMACIÓN: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+feb 05, 2020 7:45:47 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFORMACIÓN: Root WebApplicationContext: initialization completed in 763 ms
+feb 05, 2020 7:45:47 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFORMACIÓN: FrameworkServlet 'dispatcher': initialization started
+feb 05, 2020 7:45:47 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFORMACIÓN: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Feb 05 19:45:47 COT 2020]; parent: Root WebApplicationContext
+feb 05, 2020 7:45:47 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFORMACIÓN: Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+feb 05, 2020 7:45:47 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFORMACIÓN: Mapped URL path [/index.htm] onto handler 'indexController'
+feb 05, 2020 7:45:48 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFORMACIÓN: FrameworkServlet 'dispatcher': initialization completed in 868 ms
+feb 05, 2020 7:45:48 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of deployment descriptor [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/conf/Catalina/localhost/ROOT.xml] has finished in [3.479] ms
+feb 05, 2020 7:45:48 PM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+feb 05, 2020 7:46:38 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+ADVERTENCIA: No mapping found for HTTP request with URI [/SOA/index.htm] in DispatcherServlet with name 'dispatcher'
+feb 05, 2020 7:47:01 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+ADVERTENCIA: No mapping found for HTTP request with URI [/WebApp/index.htm] in DispatcherServlet with name 'dispatcher'
+feb 05, 2020 7:47:52 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+ADVERTENCIA: No mapping found for HTTP request with URI [/WebApp/index.htm] in DispatcherServlet with name 'dispatcher'
+feb 05, 2020 7:47:54 PM org.springframework.web.servlet.DispatcherServlet noHandlerFound
+ADVERTENCIA: No mapping found for HTTP request with URI [/WebApp/index.htm] in DispatcherServlet with name 'dispatcher'
+feb 05, 2020 7:48:20 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFORMACIÓN: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Feb 05 19:45:47 COT 2020]; parent: Root WebApplicationContext
+feb 05, 2020 7:48:20 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFORMACIÓN: Closing Root WebApplicationContext: startup date [Wed Feb 05 19:45:46 COT 2020]; root of context hierarchy
+feb 05, 2020 7:48:21 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMACIÓN: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto []
+feb 05, 2020 7:48:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/conf/Catalina/localhost/ROOT.xml]
+feb 05, 2020 7:48:35 PM org.apache.catalina.deploy.WebXml setVersion
+ADVERTENCIA: Unknown version string [3.1]. Default version will be used.
+feb 05, 2020 7:48:36 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+feb 05, 2020 7:48:36 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFORMACIÓN: Root WebApplicationContext: initialization started
+feb 05, 2020 7:48:36 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFORMACIÓN: Refreshing Root WebApplicationContext: startup date [Wed Feb 05 19:48:36 COT 2020]; root of context hierarchy
+feb 05, 2020 7:48:36 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFORMACIÓN: Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+feb 05, 2020 7:48:37 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFORMACIÓN: Root WebApplicationContext: initialization completed in 573 ms
+feb 05, 2020 7:48:37 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFORMACIÓN: FrameworkServlet 'dispatcher': initialization started
+feb 05, 2020 7:48:37 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFORMACIÓN: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Feb 05 19:48:37 COT 2020]; parent: Root WebApplicationContext
+feb 05, 2020 7:48:37 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFORMACIÓN: Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+feb 05, 2020 7:48:37 PM org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler
+INFORMACIÓN: Mapped URL path [/index.htm] onto handler 'indexController'
+feb 05, 2020 7:48:37 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFORMACIÓN: FrameworkServlet 'dispatcher': initialization completed in 428 ms
+feb 05, 2020 7:48:37 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of deployment descriptor [/Users/leonardosanchez/Documents/lib/apache-tomcat-7.0.99/conf/Catalina/localhost/ROOT.xml] has finished in [2.585] ms
+feb 05, 2020 7:48:37 PM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+feb 05, 2020 7:51:41 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFORMACIÓN: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Feb 05 19:48:37 COT 2020]; parent: Root WebApplicationContext
+feb 05, 2020 7:51:41 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFORMACIÓN: Closing Root WebApplicationContext: startup date [Wed Feb 05 19:48:36 COT 2020]; root of context hierarchy
+feb 05, 2020 7:51:41 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMACIÓN: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto []
+feb 05, 2020 10:22:55 PM org.apache.catalina.core.StandardServer await
+INFORMACIÓN: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+feb 05, 2020 10:22:55 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 10:22:55 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["ajp-bio-8009"]
+feb 05, 2020 10:22:55 PM org.apache.catalina.core.StandardService stopInternal
+INFORMACIÓN: Parando servicio [Catalina]
+feb 05, 2020 10:22:55 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 10:22:55 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["ajp-bio-8009"]
+feb 05, 2020 10:22:55 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["http-bio-8080"]
+feb 05, 2020 10:22:55 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["ajp-bio-8009"]
