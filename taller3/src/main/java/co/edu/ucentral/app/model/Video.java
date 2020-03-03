@@ -21,6 +21,10 @@ public class Video {
 		this.status = status;
 	}
 
+	public Video() {
+		super();
+	}
+
 	public int getId() {
 		return id;
 	}

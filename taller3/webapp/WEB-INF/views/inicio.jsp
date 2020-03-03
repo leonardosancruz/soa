@@ -38,9 +38,21 @@
 						<td>${video.path}</td>
 						<td><img alt="" src="${urlPublic}/images/${video.path}"
 							width="50" height="50"></td>
-						<td><a
-							href="consultar.html?id=${video.id}&titulo=${video.name}"
-							role="button" class="btn btn-primary">Consultar Video</a></td>
+						<td>
+							<form action="consultar" method="post">
+								<div class="form-group">
+	    							<label for="id">Id</label>
+									<input class="form-control" type="text" name="id" value="${video.id}"> 
+									
+									<label for="Titulo">Titulo</label>
+									<input class="form-control" type="text" name="titulo" value="${video.name}">
+									<button type="submit" class="btn btn-primary">Consultar</button>
+								</div>
+							</form> 
+							
+							<a href="consultar?id=${video.id}&titulo=${video.name}"
+							role="button" class="btn btn-primary">Consultar Video</a>
+						</td>
 					</tr>
 				</c:forEach>
 			</tbody>
