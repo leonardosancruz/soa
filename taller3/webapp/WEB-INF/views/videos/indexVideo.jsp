@@ -12,7 +12,8 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <title>Administracion de Videos</title>
-<spring:url value="/resources" var="urlPublic"></spring:url>
+<spring:url value="/resources" var="urlPublic" />
+<spring:url value="/videos/create" var="urlForm" />
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script
@@ -51,10 +52,12 @@
 
 		<h3>Listado de Videos</h3>
 
-		<a href="#" class="btn btn-success" role="button" title="Nuevo Video">Nuevo</a><br>
+		<a href="${urlForm}" class="btn btn-success" role="button"
+			title="Nuevo Video">Nuevo</a><br>
 		<br>
 
 		<div class="table-responsive">
+			
 			<table class="table table-hover table-striped table-bordered">
 				<tr>
 					<th>Titulo</th>
@@ -63,43 +66,35 @@
 					<th>Fecha</th>
 					<th>Estatus</th>
 					<th>Opciones</th>
+					<th>Autor</th>
+					<th>FechaFilmacion</th>
+					<th>Resumen</th>
 				</tr>
-				<tr>
-					<td>name</td>
-					<td>description</td>
-					<td>categoria</td>
-					<td>2017-05-05</td>
-					<td><span class="label label-success">estatus</span></td>
-					<td><a href="#" class="btn btn-success btn-sm" role="button"
-						title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>
-						<a href="#" class="btn btn-danger btn-sm" role="button"
-						title="Eliminar"><span class="glyphicon glyphicon-trash"></span></a>
-					</td>
-				</tr>
-				<tr>
-					<td>name</td>
-					<td>description</td>
-					<td>categoria</td>
-					<td>2017-05-05</td>
-					<td><span class="label label-success">estatus</span></td>
-					<td><a href="#" class="btn btn-success btn-sm" role="button"
-						title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>
-						<a href="#" class="btn btn-danger btn-sm" role="button"
-						title="Eliminar"><span class="glyphicon glyphicon-trash"></span></a>
-					</td>
-				</tr>
-				<tr>
-					<td>name</td>
-					<td>description</td>
-					<td>categoria</td>
-					<td>2017-05-05</td>
-					<td><span class="label label-success">estatus</span></td>
-					<td><a href="#" class="btn btn-success btn-sm" role="button"
-						title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>
-						<a href="#" class="btn btn-danger btn-sm" role="button"
-						title="Eliminar"><span class="glyphicon glyphicon-trash"></span></a>
-					</td>
-				</tr>
+				<c:forEach items="${videos}" var="video">
+					<tr>
+
+						<td>${video.name}</td>
+						<td>${video.description}</td>
+						<td>${video.categoria}</td>
+						<td><fmt:formatDate value="${video.date}" pattern="dd-MM-yyyy" /></td>
+						<td><c:choose>
+								<c:when test="${video.status=='Activo'}">
+									<span class="label label-success">Activo</span>
+								</c:when>
+								<c:otherwise>
+									<span class="label label-danger">Inactivo</span>
+								</c:otherwise>
+							</c:choose></td>
+						<td>${video.detalle.autor}</td>
+						<td>${video.detalle.fechaFilmacion}</td>
+						<td>${video.detalle.resumen}</td>
+						<td><a href="#" class="btn btn-success btn-sm" role="button"
+							title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>
+							<a href="#" class="btn btn-danger btn-sm" role="button"
+							title="Eliminar"><span class="glyphicon glyphicon-trash"></span></a>
+						</td>
+					</tr>
+				</c:forEach>
 			</table>
 			<c:if test="${mensaje!=null}">
 				<div class="alert alert-success" role="alert">${mensaje}</div>

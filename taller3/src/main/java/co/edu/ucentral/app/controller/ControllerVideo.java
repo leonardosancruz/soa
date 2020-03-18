@@ -1,6 +1,7 @@
 package co.edu.ucentral.app.controller;
 
 import java.util.Date;
+import java.util.List;
 import java.text.SimpleDateFormat;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -28,13 +30,20 @@ public class ControllerVideo {
 
 	@GetMapping("/index")
 	public String mostrarIndex(Model model) {
+		List<Video> lista = serviceVideos.selectAll();
+		model.addAttribute("videos", lista);
 		
+		System.out.println("index: " + model);
 		return "videos/indexVideo";
 	}
 	
 	@GetMapping("/create")
-	public String crear() {
-
+	public String crear(@ModelAttribute Video video, Model model) {
+		model.addAttribute("statuses",serviceVideos.selectEstatus());
+		model.addAttribute("clasificaciones",serviceVideos.selectClasificacion());
+		List<Video> lista = serviceVideos.selectAll();
+		model.addAttribute("lista", lista);
+		System.out.println("create: " + lista);
 		return "videos/createVideo";
 	}
 
@@ -48,7 +57,7 @@ public class ControllerVideo {
 		if (result.hasErrors()) {
 			return "videos/createVideo";
 		}
-		System.out.println("objeto recibido: " + video);
+		System.out.println("save: " + video);
 		serviceVideos.insert(video);
 		atributes.addFlashAttribute("mensaje", "Video guardado con exito");
 
@@ -56,11 +65,9 @@ public class ControllerVideo {
 	}
 
 	@InitBinder
-	private void initBinder(WebDataBinder binder) {
-
-		SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy");
-
-		binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
+	public void initBinder(WebDataBinder binder) {
+	SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+	binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
 	}
 
 }

@@ -10,8 +10,11 @@ public class Video {
 	private int categoria;
 	private String path;
 	private String status;
+	private Detalle detalle;
 
-	public Video(int id, String name, String description, Date date, int categoria, String path, String status) {
+	public Video(int id, String name, String description, Date date, int categoria, String path, String status,
+			Detalle detalle) {
+		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;
@@ -19,6 +22,15 @@ public class Video {
 		this.categoria = categoria;
 		this.path = path;
 		this.status = status;
+		this.detalle = detalle;
+	}
+
+	public Detalle getDetalle() {
+		return detalle;
+	}
+
+	public void setDetalle(Detalle detalle) {
+		this.detalle = detalle;
 	}
 
 	public Video() {
