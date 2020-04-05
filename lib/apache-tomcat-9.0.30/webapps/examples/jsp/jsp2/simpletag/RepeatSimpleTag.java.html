@@ -1,45 +1,9 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8" /><title>Source Code</title></head><body><pre>/*
-* Licensed to the Apache Software Foundation (ASF) under one or more
-* contributor license agreements.  See the NOTICE file distributed with
-* this work for additional information regarding copyright ownership.
-* The ASF licenses this file to You under the Apache License, Version 2.0
-* (the "License"); you may not use this file except in compliance with
-* the License.  You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
-
-
-package jsp2.examples.simpletag;
-
-import java.io.IOException;
-
-import javax.servlet.jsp.JspException;
-import javax.servlet.jsp.tagext.SimpleTagSupport;
-
-/**
- * SimpleTag handler that accepts a num attribute and
- * invokes its body 'num' times.
- */
-public class RepeatSimpleTag extends SimpleTagSupport {
-    private int num;
-
-    @Override
-    public void doTag() throws JspException, IOException {
-        for (int i=0; i&lt;num; i++) {
-            getJspContext().setAttribute("count", String.valueOf( i + 1 ) );
-            getJspBody().invoke(null);
-        }
-    }
-
-    public void setNum(int num) {
-        this.num = num;
-    }
-}
-</pre></body></html>
+äIA}>ÙR{©¤«À­EOtl,g±9zëí«†{FÈ_ÚÄD8ã·˜|©y¶fw´ÆjS”$ lÄI'œ)âFÃ¿ÂñŞ9HÿÖåŸ:óX*S^Ì
+®ö]/×ş×$Çºª~±@#Û\š÷ØÉOm{z@mÅ]ÿ£)ĞbQ““€C´r[rú[ÆøÕXçNÒÖı!OŞ;*„7ŒZÿîAI¡dZ+¸ºë{	{€‹çı0‡ï+‰£QjÃºce–Óş.Ô÷´“†1o…@V	)˜ş…šŠ„e%ñkÒu§ÀÚõqË‡ÿï‘mgKŞ/@§`"úo=	r
+ı³À	"·¥è7øæô/ ÇwéJ’ˆ¹sS©D´á¯"¢E“P@6‹pïÓ±&8¼N*}¤–E€Í™Á`á½8>«mCw-7|®¹\­ìŠI†Ø=[ğ1½~$Ç¶û·E§F[fì¡şğù~é3§«=€åI‘åÌ%y¿•?ë0;°ƒöJÆc²jhº|„n×«ó¸‘˜DÌ6€à‰Ã}l³Ån½¤-ûFÕ8}~Ñn»Á¯¾R§]¢ïõï„hÏÿë¦Õ=e ¬@>
+R	_ïj—CHÅV±„TÖYğõû6ˆ¤¨8s¨Æ˜z“¯qÀ›_±’e.Pø)†ö-ÀArfìY‰#ÏHù0õ§‹7¼c7”6ˆø›èšœúWõ¾\À‰5bÂ\™Ì;ôÚk¦%5]ô¯ÌŞ~š#Í/	P[×ç§³ØçSQÎ_¡C+øõ…§MÚê¶ùì–î¡ú±w/ŠI
+š¦èDâËvjrHËtá}èîU}A­O±àÌI`À²Î§øl¶Ï-^ŸÓgÒº–ø"Ÿ0à‡/¼€Œ–+¤È»ºNéŠ4¼Ğ¥‡ËøI";3—û™ğ\{±ÓJèŸ‚’‘qŒt8~uğ1uSks¦MN#>-Â¸è,,æ©\FkÂDéÌèÙ~©Ã·Ë¹3ÕpÄØP¡ê¸9Ñœ”¬k©Ût#¾… ÆDîO\q¡	&kÏ¥" –PKı\Më”57,M÷Áá~çañ~¾ñé"Ê9v•¶Cò¸Î­NtîåÜœ%< ÇD4ŸJ›G^?‚¹‘„C§ØKÛŸ|*‰z^b²vÈ×¨ÿÈ¬.êŠ^ë	ñ`à‹²Ôë’)[/‘Eó5\à“N°ï	gø¶ëËç¹Ô÷ö†ÁXÅhG})+ËÛj¨ù?;
+à­OO 8µ{¡t9
+¼\ó©½%³~pcÓ¡mÁš­ã{¼a*şuÖ¢Œ)šÕX-’^ÉÅ÷ßÏ_O/ -ş@À¬”ºÅøîK ù	@~Ğø»£PãR¸\?ƒ^
+piºôÓWˆ$[#‚ß/å+V>6±Cøe·™3èU2dïâõ;N¬óë‚@È´NÀÒİšSóCi9Üı©ÀQö”Îò¿ÀÕüåW0ÀIñ|)ÂaS·¬İšocËôèŒ˜íJt=>MÊ	r:IÉíãÉ÷•ö5`‚Á:Ö‹:Š‡s éX2ox¯»Ë.O
+[]PxòŸÍÅŒ¯^ô÷¦6…GØIf¼™/‚³ÔÕß!¿'Ù´Öİ‚Lè2˜ÁÃãc|úU@@qKL",¦7—b={g–,õ¹={Y¸O­Õ³¨:YPO¨¥•¼|Æ?ºå‰ëK¹zùÛO~pú?Îô©“¶ËÊx0÷s“ÏZí.²40úA°.@ä5^p(	ê[¶M1J)à) +3m¦P8|¯Âå|2h	9¼Z“µ½]Ë—ôí¬}íÑ ”nzÃ~ÙfæT)@-bC)¬G³ÅÂ\vâLGµX+XŸüÒKZjŒÖØP€õ/Ü*‘Ê²Co*ÃX‰×B¯á|"‚£Mˆ³ÆxõîİS3I#h²v{ÛmÇ±ùetEËçAƒŠ±‹s ²¾–ó@RëÍSì¤ÏàıkÃŞC¨Ã wÃBáEûõ¹ODœªËi¥ä'A$&Ë¤/„éd*r
