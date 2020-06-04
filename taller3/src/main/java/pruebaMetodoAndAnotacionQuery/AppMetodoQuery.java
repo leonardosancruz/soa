@@ -18,10 +18,5 @@ public class AppMetodoQuery {
 			System.out.println(v);
 		}
 		context.close();
-
-
 	}
-
-	
-
 }
